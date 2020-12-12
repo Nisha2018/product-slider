@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Image slider with vertical thumbnails</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/ninja-slider.css" rel="stylesheet" />
+    <link href="assets/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+    
+    <style>
+        body {font: normal 0.9em Arial;color:#222;}
+        header {display:block; font-size:1.2em;margin-bottom:100px;}
+        header a, header span {
+            display: inline-block;
+            padding: 4px 8px;
+            margin-right: 10px;
+            border: 2px solid #000;
+            background: #DDD;
+            color: #000;
+            text-decoration: none;
+            text-align: center;
+            height: 20px;
+        }
+        header span {background:white;}
+        a {color: #1155CC;}
+
+        #thumbnail-slider {
+            margin-right: 20px;
+        }
+
+        #thumbnail-slider div.inner {
+            background-color: transparent;
+        }
+
+        #ninja-slider div.fs-icon {
+            display: none;
+        }
+
+        .mainCont,.thumbnail-slider,.ninja-slider {
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <!--start-->
+    <div class="mainCont" style="width:1000px;margin:80px auto;color: transparent;">
+        <div id="thumbnail-slider" style="float:left;">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a class="thumb" href="img/1.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/2.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/3.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/4.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/5.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/6.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/7.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/8.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/9.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/10.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/11.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/12.jpg"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="ninja-slider" style="float:left;">
+            <div class="slider-inner">
+                <ul>
+                    <li><a class="ns-img" href="img/1.jpg"></a></li>
+                    <li><a class="ns-img" href="img/2.jpg"></a></li>
+                    <li><a class="ns-img" href="img/3.jpg"></a></li>
+                    <li><a class="ns-img" href="img/4.jpg"></a></li>
+                    <li><a class="ns-img" href="img/5.jpg"></a></li>
+                    <li><a class="ns-img" href="img/6.jpg"></a></li>
+                    <li><a class="ns-img" href="img/7.jpg"></a></li>
+                    <li><a class="ns-img" href="img/8.jpg"></a></li>
+                    <li><a class="ns-img" href="img/9.jpg"></a></li>
+                    <li><a class="ns-img" href="img/10.jpg"></a></li>
+                    <li><a class="ns-img" href="img/11.jpg"></a></li>
+                    <li><a class="ns-img" href="img/12.jpg"></a></li>
+                </ul>
+                <div class="fs-icon" title="Expand/Close"></div>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <!--end-->
+
+    <script src="assets/ninja-slider.js"></script>
+    <script src="assets/thumbnail-slider.js" type="text/javascript"></script>
+</body>
+</html>
